@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Code Test 2</title>
+<!-- bower:css -->
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.css" />
+<!-- endbower -->
+
+<!-- inject:css -->
+<link rel="stylesheet" href="/app/styles/styles.css">
+<!-- endinject -->
+</head>
+
+<body>
+<div class='container'>
+	<h1>Code Test 2</h1>
+	<div class="panel panel-primary">
+		<div class="panel-heading">JavaScript</div>
+		<div class="panel-body" id="panel1">
+			<p id="question1"></p>
+			<!--<body onload="init();">
+    		<div class="subdiv">
+        		<canvas id="MyCanvas1" width="690%" height="50">
+  					This browser or document mode doesn't support canvas object</canvas>
+    		</div>
+			</body>-->
+			<p id="question2"></p>
+			<p id="question3">3. Bubble sort in console.log</p>
+		</div>	
+	</div>
+	<div class="panel panel-primary">
+		<div class="panel panel-heading">JQuery</div>
+		<div class="panel panel-body">
+			<body>
+				<p class="jquery">Beach Towel</p>
+				<p class="jquery">Suntan Lotion</p>
+				<p class="jquery">Mask, Fins and Snorkel</p>
+				<p class="jquery">Boogie Board</p>
+			</body>
+			<body>
+				<p class="click">Click Me!</p>
+			</body>
+			<body>
+				<div class="colorDiv" style="background-color: red">
+					<p>Click the button to change the background color of this paragraph.</p>
+					<button class="colorChange">Change Color</button>
+				</div>
+			</body>
+		</div>
+	</div>
+	<div class="panel panel-primary">
+		<div class="panel panel-heading">AngularJS</div>
+		<div class="panel panel-body">
+			<p>1. How do you define an AngularJS application? Put "ng-app=appName" in the html tag.</p>
+			<p>2. What is a controller? It allows for the manipulation of data within the html.</p>
+			<p>3. What does ng-model do? This binds an input to the JS.</p>
+			<p>4. What is interpolation markup? The use of angular within html tags</p>
+			<p>5. What is $scope? The binding between the HTML, the model its bound to, and the controller.</p>
+			<p>6. What is dependency injection? The dependency of angular objects being defined by the components that are injected into it. E.g. components being injected with factories or services.</p>
+			<p>7. What is two-way binding? Having an input connected to both the HTML and JS while updating simultaneously.</p>
+			<p>8. What is 'controller as' syntax? John Papa style angular where you define the controller as a variable in order to make it easier to follow the variables that you define in the controller.</p>
+			<p>9. What is MV* architecture? MVC? architecture stands for Model View Controller which is the idea that the Model takes care of the data that the user sees through the View and then inputs through the Controller which gives the data back to the Model. An infinite loop.  </p>
+			<p>10. What is the difference between a service and a factory? A service is by definition an object while a factory is a funciton.</p>
+		</div>
+	</div>
+</div>
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<!-- endbower -->
+
+<!-- inject:js -->
+<script src="/app/app.js"></script>
+<script src="/app/jquery.js"></script>
+<!-- endinject -->
+</body>
+</html>
